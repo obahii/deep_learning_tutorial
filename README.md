@@ -11,18 +11,26 @@ To run this project, follow the steps below:
 1. Clone the project repository to your local machine.
 
 ```
-sh
+
    git clone <repository-url>
    cd my_project
+```
 
 
-2. Create a virtual environment for the project. You can use tools like `venv` or `conda` to create the virtual environment.
-```python3 -m venv venv```
+2. Create a virtual environment for the project.
+    ```
+    python3 -m venv venv
+    
+    ```
 3. Activate the virtual environment.
- - on macOS abd Linux:
-    ```source venv/bin/activate```
-- on Windows
-```.\venv\Scripts\activate```
+     - on macOS abd Linux:
+        ```
+        source venv/bin/activate
+        ```
+    - on Windows
+        ```
+        .\venv\Scripts\activate
+        ```
 4. Install the required packages by running the following command in the terminal:
    ```
    pip install -r requirements.txt
@@ -36,12 +44,3 @@ sh
 
 By following these steps, you will be able to run the project and explore the implementation of the neural network and SVM models for image classification using the MNIST dataset.
 
-## Roadmap
-
-Planned future developments or features for the project.
-
-## References
-
-References to any external sources or documentation used in the project.
-
-Feel free to customize this template to fit the specific needs of your project.

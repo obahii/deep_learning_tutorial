@@ -10,37 +10,44 @@ To run this project, follow the steps below:
 
 1. Clone the project repository to your local machine.
 
-```
-
-   git clone <repository-url>
-   cd my_project
-```
-
+    ```
+    git clone <repository-url>
+    cd my_project
+    ```
 
 2. Create a virtual environment for the project.
-    ```
-    python3 -m venv venv
-    
-    ```
+
+   ```
+   python3 -m venv venv
+
+   ```
+
 3. Activate the virtual environment.
-     - on macOS abd Linux:
-        ```
-        source venv/bin/activate
-        ```
-    - on Windows
-        ```
-        .\venv\Scripts\activate
-        ```
+
+   - on macOS abd Linux:
+
+     ```
+     source venv/bin/activate
+
+     ```
+   - on Windows
+
+     ```
+     .\venv\Scripts\activate
+     
+     ```
 4. Install the required packages by running the following command in the terminal:
+
    ```
    pip install -r requirements.txt
+
    ```
 5. Start Jupyter Notebook by running the following command in the terminal:
+
    ```
    jupyter notebook
+
    ```
 6. In the Jupyter Notebook interface, navigate to the project directory and open the Jupyter Notebook file.
 7. Run the cells in the notebook sequentially to execute the code and see the results.
-
-By following these steps, you will be able to run the project and explore the implementation of the neural network and SVM models for image classification using the MNIST dataset.
 

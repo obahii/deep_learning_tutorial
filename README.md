@@ -19,7 +19,6 @@ To run this project, follow the steps below:
 
    ```
    python3 -m venv venv
-
    ```
 
 3. Activate the virtual environment.
@@ -28,25 +27,21 @@ To run this project, follow the steps below:
 
      ```
      source venv/bin/activate
-
      ```
    - on Windows
 
      ```
      .\venv\Scripts\activate
-     
      ```
 4. Install the required packages by running the following command in the terminal:
 
    ```
    pip install -r requirements.txt
-
    ```
 5. Start Jupyter Notebook by running the following command in the terminal:
 
    ```
    jupyter notebook
-
    ```
 6. In the Jupyter Notebook interface, navigate to the project directory and open the Jupyter Notebook file.
 7. Run the cells in the notebook sequentially to execute the code and see the results.

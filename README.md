@@ -14,7 +14,7 @@ To run this project, follow the steps below:
 sh
    git clone <repository-url>
    cd my_project
-```
+
 
 2. Create a virtual environment for the project. You can use tools like `venv` or `conda` to create the virtual environment.
 ```python3 -m venv venv```
